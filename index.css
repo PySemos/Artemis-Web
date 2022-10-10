@@ -1,0 +1,83 @@
+img{
+    width: 35vw;
+}
+
+#title{
+    font-size: 10rem;
+}
+
+body{
+    background-image:url("./img/2474215.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    text-align: center;
+    color: white;
+}
+#nasa-logo{
+    width: 35vw;
+}
+#photo-artemis{
+    border: 5px slid black;
+    border-radius: 15px;
+
+}
+
+.paragraph{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 50px auto;
+    width: fit-content;
+    height: fit-content;
+    background-image: url("img/fondo-estrellado.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    color: white;
+    border: 5px solid black;
+    border-radius: 15px;
+
+}
+
+.image{
+    width: 35vw;
+    height: 90vh;
+    border-radius: 15px;
+}
+
+.gallery{
+    background-color: black;
+    width:fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    display: inline-block;
+    border: 10px black solid;
+    padding: 0px;
+    border-radius: 15px;
+
+}
+
+.boton{
+    position:relative;
+    bottom: 35vh;
+    background: transparent;
+    border: none;
+}
+.boton img{
+    width: 8vw;
+}
+
+.boton:hover{
+    cursor: pointer;
+}
+#nasa-logo-title{
+    position: absolute;
+    top: 20px;
+    left: 14px;
+    width: 7vw;
+}
+
+#artemis-logo-title{
+    position: absolute;
+    top: 20px;
+    right: 14px;
+    width: 7vw;
+}
